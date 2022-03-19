@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 8 - Forms - Atividade 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>
+            Guliver Traveller
+        </h1>
+        <h2>
+            Cadastre aqui o ponto turístico
+        </h2>
+      
+   </div>
+    <form action="endereço de um script" method="post" id="dados" name="dados">
+
+        <fieldset>
+            <legend>Descrição do Local</legend>
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Ex: Masp - Museu de Arte de São Paulo">
+            </p>
+            <p>
+                <label for="name">Localização:</label>
+                <input type="text" id="endereço" placeholder="Endereço e número">
+            </p>
+            <p>
+            <label for="name">CEP:</label>
+            <input type="text" id="número" placeholder="0000-000" >
+        </p>
+        <p>
+            <label for="name">Estação de Metrô próxima?</label>
+            <input type="radio" name="metro" id="metros">
+            <label for="metros">Sim</label>
+            <input type="radio" name="metro" id="metron">
+            <label for="metron">Não</label>
+        </p>
+                    <p>
+                        <label for="name">Acessibilidade?</label>
+                        <input type="radio" name="Acessibilidade" id="acessibilidades">
+                        <label for="accs">Sim</label>
+                        <input type="radio" name="Acessibilidade" id="acessibilidaden">
+                        <label for="accn">Não</label>
+                    </p>
+        </fieldset>
+        <fieldset>
+            <legend>Horário de Funcionamento</legend>
+            <p>
+                <label for="Dias de Funcionamento">Dias em que abre:</label>
+                <input type="checkbox" id="Domingo">
+                <label for="Domingo">Dom.</label>
+                <input type="checkbox" id="Segunda">
+                <label for="Segunda">Seg.</label>
+                <input type="checkbox" id="Terça">
+                <label for="Terça">Ter.</label>
+                <input type="checkbox" id="Quarta">
+                <label for="Quarta">Qua.</label>
+                <input type="checkbox" id="Quinta">
+                <label for="Quinta">Qui.</label>
+                <input type="checkbox" id="Sexta">
+                <label for="Sexta">Sex.</label>
+                <input type="checkbox" id="Sábado">
+                <label for="Sábado">Sáb.</label>
+            </p>
+            <p>
+                <label for="hora">Horário de abertura:</label>
+                <input type="time" id="hora">
+                <label for="hora">Horário de Encerramento:</label>
+                <input type="time" id="hora">
+                
+            </p>
+            <p>
+             <label for="Observações">Observações:</label>
+             <input type="text" id="texto" placeholder="Ex: Horários especiais de funcionamento">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+            </p>
+            <p>
+                <label for="name">Telefone:</label>
+                <input type="tel" id="Telefone">
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" id="email">
+            </p>
+            <p>
+                <label for="site">Site:</label>
+                <input type="site" id="site">
+            </p>
+         </fieldset>
+         <fieldset>
+             <legend>Imagens</legend>
+         <p>
+            <label for="foto">Envie fotos do Local</label>
+            <input type="file" id="foto">
+            <input type="file" id="foto">
+            <input type="file" id="foto">
+            <input type="file" id="foto">
+        </p>
+    </fieldset>
+        <fieldset>
+            <legend>Valores</legend>
+            <p>
+                <label for="name">Acesso Gratuito?</label>
+                <input type="radio" name="gratuidade" id="gratuidades">
+                <label for="grts">Sim</label>
+                <input type="radio" name="gratuidade" id="gratuidaden">
+                <label for="grtn">Não</label>
+                        </p>
+            <p>
+                <label for="">Selecione os Métodos de pagamento</label>
+                <input type="checkbox" name="" id="Método1">
+                <label for="Método1">Dinheiro</label>
+                <input type="checkbox" name="" id="Método2">
+                <label for="Método2">Cartão de Crédito</label>
+                <input type="checkbox" name="" id="Método3">
+                <label for="Método3">Cartão de Débito</label>
+                <input type="checkbox" name="" id="Método4">
+                <label for="Método4">PIX</label>
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
